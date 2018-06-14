@@ -39,6 +39,7 @@ def turn(board)
   if index.between?(0, 8) == false || valid_move?(board, index) == false
     break
     else
+      move(board, index, character = "X")
       
     
 end
