@@ -40,7 +40,8 @@ def turn(board)
     break
     else
       move(board, index, character = "X")
+      display_board(board)
       
-    
+    end
 end
 
