@@ -37,7 +37,7 @@ def turn(board)
   input = gets.chomp
   index = input_to_index(input)
   if index.between?(0, 8) == false || valid_move?(board, index) == false
-    break
+    puts "Please enter 1-9"
     else
       move(board, index, character = "X")
       display_board(board)
