@@ -34,7 +34,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  input = gets.strip
+  input = gets.chomp
   if input.between?(1, 9)
     then 
 end
